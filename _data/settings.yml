@@ -1,0 +1,146 @@
+teams_settings:  
+  title: our team member
+  description: Meet Our Most Creative Minds That’s Are Professional
+
+blogs_settings:  
+  title: News & blog
+  description: Latest Articles For New Project
+  button:
+    name: "view all news"
+    link: "/blog/"
+
+videos_settings:  
+  title: Watch Our Latest Videos
+  description: Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+  youtube_link: "https://www.youtube.com/watch?v=iogabydg2y0"
+  button:
+    name: "Learn More "
+    link: "#"
+
+services_settings:  
+  title: About Us
+  description: Most Creative Agency For Your Project
+
+projects_settings:  
+  title: company fact
+  description: Our Teams Achivement Journey
+  button:
+    name: "get started "
+    link: "#"
+  counter:
+    - icon: '<i class="fas fa-rocket"></i>'
+      name: "Project completed"
+      count: 6320
+    - icon: '<i class="fas fa-life-ring"></i>'
+      name: "Satisfied Clients"
+      count: 8563
+    - icon: '<i class="fas fa-trophy"></i>'
+      name: "Awards Won"
+      count: 963
+    - icon: '<i class="fas fa-universal-access"></i>'
+      name: "Expert Team Member"
+      count: 4975
+
+portfolios_settings:  
+  title: About Us
+  description: Most Creative Agency For Your Project
+  button:
+    name: "View more"
+    link: "#"
+  button2:
+    name: "Let’s Talk"
+    link: "#"
+
+cta_settings:  
+  title: Have Any Creative Project
+  description: We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure
+  image: /assets/images/cta-text.png
+  button:
+    name: "meet with us"
+    link: "#"
+  
+textimonials_settings:  
+  image: /assets/images/testimonial/1.png
+  textimonial:
+    - name: "Michele L. Racinea "
+      position: "Web Designer"
+      text: "Avoids pleasur itself because pleas because those who do not know how to pursue plesure rationally encou eque that are extrem painful again is there anyone who loves pursues or desires to obtain pain of itself."
+      image: "/assets/images/testimonial/author.png"
+    - name: "Michele L. Racinea "
+      position: "Web Designer"
+      text: "Avoids pleasur itself because pleas because those who do not know how to pursue plesure rationally encou eque that are extrem painful again is there anyone who loves pursues or desires to obtain pain of itself."
+      image: "/assets/images/testimonial/author.png"
+
+abouts_settings:  
+  title: About Us
+  description: Most Creative Agency For Your Project
+  image: "/assets/images/about-us/1.png"
+  image2: "/assets/images/about-us/2.png"
+  text: A
+  text2: Avoids pleasure itself, because it is pleasure, but because those who do not know how to pursuetw pleasure ration counter consequences that ares extremely painful. Nor again is tanyone who loves or pursues or desires to obtain pain
+  list:
+    - item: Web Design
+      link: "#"
+    - item: Web Development
+      link: "#"
+    - item: Graphics Arts
+      link: "#"
+    - item: Product Marketing
+      link: "#"
+    - item: User Research
+      link: "#"
+  button:
+    name: "Contact Us"
+    link: "#contact"
+
+pricings_settings:  
+  title: our pricing
+  description: Popular Pricing Plan For Creative Project
+  button:
+    name: make plan 
+    link: "#"
+  list:
+    - name: '01 <span>basic</span>'
+      image: "/assets/images/price-icon.png"
+      text: '<span>$45.99/month</span>'
+      listitem:
+        - item: Web Design (UX/UI)
+        - item: Software Development
+        - item: Fashion Design (Arts)
+        - item: Web Development (php)
+      lowerlistitem:
+        - item: Game Design & DV
+        - item: Computer Hardware
+    - name: '02 <span>smart</span>'
+      image: "/assets/images/price-icon.png"
+      text: '<span>$65.99/month</span>'
+      listitem:
+        - item: Web Design (UX/UI)
+        - item: Software Development
+        - item: Fashion Design (Arts)
+        - item: Web Development (php)
+      lowerlistitem:
+        - item: Game Design & DV
+        - item: Computer Hardware
+    - name: '03 <span>Premium</span>'
+      image: "/assets/images/price-icon.png"
+      text: '<span>$103.99/month</span>'
+      listitem:
+        - item: Web Design (UX/UI)
+        - item: Software Development
+        - item: Fashion Design (Arts)
+        - item: Web Development (php)
+      lowerlistitem:
+        - item: Game Design & DV
+        - item: Computer Hardware
+404_settings:  
+  title: 404
+  description: The page you are lookng for cannot be found
+  image: /assets/images/404.svg
+  button:
+    name: "Go Back to Home Page"
+    link: "#"
+      
+
+
+
