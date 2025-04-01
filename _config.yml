@@ -1,24 +1,24 @@
-title: "Livvic Premium Jekyll Theme"
-email: "tortoizthemes@gmail.com"
+title: "SND Labs"
+email: "hello@snd-labs.com"
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://livvic-jekyll.tortoizthemes.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://snd-labs.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 #General Settings
-facebook_url: "https://facebook.com/tortoizthemes"
-twitter_url: "https://twitter.com/tortoizthemes"
-behance_url: "https://behance.com/tortoizthemes"
-instagram_url: "https://instagram.com/tortoizthemes"
+#facebook_url: "https://facebook.com/tortoizthemes"
+#twitter_url: "https://twitter.com/tortoizthemes"
+#behance_url: "https://behance.com/tortoizthemes"
+#instagram_url: "https://instagram.com/tortoizthemes"
 logo_url: "/assets/images/logo.png"
 
 
-copyright_text: "&copy; 2022 Livvic. All Rights Reserved"
-phone_number: "+012 (345) 77 999"
-address: "55 New Sodor Road, USA"
-office_time: "Sun - Friday : 10 am - 08 pm"
+copyright_text: "&copy; 2025 SND Labs. All Rights Reserved"
+phone_number: "+82 70 4350 7037"
+address: "3rd Floor, 4, Gukhoe-daero 72-gil, Yeongdeungpo-gu, Seoul, South Korea"
+#office_time: "Sun - Friday : 10 am - 08 pm"
 
 # Build settings
 theme: minima
@@ -41,7 +41,7 @@ collections:
   services:
     output: true
   portfolios:
-    output: true
+    output: false
   teams:
     output: false
 

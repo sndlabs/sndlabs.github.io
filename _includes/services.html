@@ -1,34 +1,47 @@
-<!--======  SERVICE PART START ======-->
+<!--====== SERVICE PART START ======-->
 <section class="service-area service-bg pt-140 pb-90" id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3 text-center pb-80">
-                <div class="section-title service-title">
-                    <span><img src="{{relative_url}}/assets/images/service-text.png" alt=""></span>
-                    <p class="section-para"><span></span>{{ site.data.settings.services_settings.title  }}</p>
-                    <h1>{{ site.data.settings.services_settings.description  }}</h1>
-                </div>
-            </div>
+  <div class="container">
+    <!-- Section Title -->
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center pb-80">
+        <div class="section-title service-title">
+          <span><img src="{{relative_url}}/assets/images/service-text.png" alt=""></span>
+          <p class="section-para">Our Technology</p>
+          <h1>Next-Gen LLMs &amp; VLMs</h1>
         </div>
-        <div class="row pb-30">
-           {% for service in site.services %}
-            <div class="col-lg-6 mb-4">
-                <div class="single-service-box">
-                    <div class="single-service-icon-box">
-                        <p>{% if forloop.index < 10 %} 0{{forloop.index}} {% else %} {{forloop.index}} {% endif %}</p>
-                        {% if service.icon %}
-                          {{service.icon}}
-                        {% endif %}
-                    </div>
-                    <div class="service-box-content">
-                        <h3>{{service.title}}</h3>
-                        <p>Inventore veritatis et quasi beata vitae dicta sunt explicabo. Neenms ipsam voluptatem voluptas</p>
-                        <a href="{{service.url}}" class="service-btn">Read More <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
+      </div>
     </div>
+    <!-- Content Blocks -->
+    <div class="row pb-30">
+      <!-- Next-Gen LLMs Block -->
+      <div class="col-lg-12 mb-4">
+        <div class="single-service-box">
+          <div class="service-box-content">
+            <h3>Next-Gen LLMs: Story-First Foundation Models</h3>
+            <p>
+              Our proprietary LLM architecture is designed with storytelling at its core. Unlike traditional models that falter in long-form generation, SND Labs’ models maintain consistency over thousands of words, tracking character arcs, emotional shifts, and plot intricacies with unmatched coherence.
+            </p>
+            <h4 style="color:#fff; margin-top:20px;">Key Features:</h4>
+            <ul style="color:#fff; list-style: disc; padding-left: 40px;">
+              <li>Deep contextual memory and narrative reasoning</li>
+              <li>Emotion-aware character development</li>
+              <li>Temporal and causal coherence in plotlines</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- VLMs Block -->
+      <div class="col-lg-12 mb-4">
+        <div class="single-service-box">
+          <div class="service-box-content">
+            <h3>VLMs: Bringing Stories to Life Visually</h3>
+            <p>
+              Words paint the picture, but we bring the picture to life. Our Vision-Language Models (VLMs) complement our LLMs to visualize narratives through compelling graphics and video generation. Imagine a story that starts as a text prompt and ends in a cinematic short—crafted entirely by AI.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<!--======  ABOUT-US PART END ======-->
+<!--====== SERVICE PART END ======-->

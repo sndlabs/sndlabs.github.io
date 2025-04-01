@@ -1,16 +1,63 @@
 ---
 layout: home
+show_hero_area: true
+show_features: false
+show_about: true
+show_services: true
+show_portfolios: false
+show_call_to_action: false
+show_team: false
+show_video: false
+show_projects: false
+show_testimonials: false
+show_pricing: true
+show_blog: false
 ---
 
-{% include hero-area.html %}
-{% include features.html %}
-{% include about.html %}
-{% include services.html %}
-{% include portfolios.html %}
-{% include call-to-action.html %}
-{% include team.html %}
-{% include video.html %}
-{% include projects.html %}
-{% include testimonials.html %}
-{% include pricing.html %}
-{% include blog.html %}
+{% if page.show_hero_area %}
+  {% include hero-area.html %}
+{% endif %}
+
+{% if page.show_features %}
+  {% include features.html %}
+{% endif %}
+
+{% if page.show_about %}
+  {% include about.html %}
+{% endif %}
+
+{% if page.show_services %}
+  {% include services.html %}
+{% endif %}
+
+{% if page.show_portfolios %}
+  {% include portfolios.html %}
+{% endif %}
+
+{% if page.show_call_to_action %}
+  {% include call-to-action.html %}
+{% endif %}
+
+{% if page.show_team %}
+  {% include team.html %}
+{% endif %}
+
+{% if page.show_video %}
+  {% include video.html %}
+{% endif %}
+
+{% if page.show_projects %}
+  {% include projects.html %}
+{% endif %}
+
+{% if page.show_testimonials %}
+  {% include testimonials.html %}
+{% endif %}
+
+{% if page.show_pricing %}
+  {% include pricing.html %}
+{% endif %}
+
+{% if page.show_blog %}
+  {% include blog.html %}
+{% endif %}
