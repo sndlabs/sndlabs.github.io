@@ -86,22 +86,16 @@
 </section>
 <!--======  HERO PART END ======-->
 
-<!-- jQuery 라이브러리 로드 (이미 로드되어 있다면 생략 가능) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 <script>
 $(document).ready(function(){
-    // 모든 hero-area-content 요소를 숨기고 첫 번째 요소만 보이도록 설정
-    var $contents = $('.hero-area-content');
-    $contents.hide().first().show();
-    var currentIndex = 0;
-    
-    // 3초마다 다음 요소로 전환 (fade 효과 포함)
-    setInterval(function(){
-        $contents.eq(currentIndex).fadeOut(500, function(){
-            currentIndex = (currentIndex + 1) % $contents.length;
-            $contents.eq(currentIndex).fadeIn(500);
-        });
-    }, 3000);
+  $('.hero-carousel-active').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    smartSpeed: 500,
+    nav: false,
+    dots: true
+  });
 });
 </script>
